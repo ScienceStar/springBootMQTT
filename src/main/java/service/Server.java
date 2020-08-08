@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Server {
-    public static final String SERVER_URL = "tcp://47.107.97.120:1883";
+    public static final String SERVER_URL = "tcp://localhost:1883";
     public static List<String> TOPICList = new ArrayList<String>(Arrays.asList("wether", "car", "topic"));
     public static String clientid;
 
